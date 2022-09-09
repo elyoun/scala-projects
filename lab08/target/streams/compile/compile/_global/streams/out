@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\Users\Joao\Downloads\upskills-isep-simplealgorithmsclass-eae68b2e325b\lab08\src\main\scala\Rectangle.scala:61:33 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m61 |[0m    [33mval[0m [36mlist1[0m = l.map(l.filterNot(_ == l.head))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Found:    [1m[31mList[0m[1m[31m[[0mRectangle.Rectangle[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Required: [1m[32m([0mRectangle.Rectangle[1m[32m)[0m[1m[32m [0m[1m[32m=[0m[1m[32m>[0m[1m[32m [0m[1m[32mAny[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E165] Type Warning: C:\Users\Joao\Downloads\upskills-isep-simplealgorithmsclass-eae68b2e325b\lab08\src\main\scala\Rectangle.scala:67:60 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m67 |[0m    list1.foldLeft(Map[[35mLong[0m, [35mList[(Int, Int)][0m]()){[33mcase[0m (la, (i1,i2)) => addToMap(f(i1,i2), (i1,i2), la)}[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                                            [33m^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                   pattern selector should be an instance of Matchable,,[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                   but it has unmatchable type Nothing instead[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
